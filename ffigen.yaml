@@ -1,0 +1,6 @@
+name: 'NativeLibrary'
+description: 'Auto generated bindings for Dart types'
+output: './lib/src/ffi_bindings.dart'
+headers:
+  entry-points:
+    - 'lib/src/*/*.h'
